@@ -3738,3 +3738,106 @@ export const contacts = [
     nat: 'NZ',
   },
 ];
+
+export const restaurants = [
+    {
+        collection: {
+            collection_id: 1,
+            res_count: 30,
+            image_url: "https://b.zmtcdn.com/data/collections/e140962ec7eecbb851155fe0bb0cd28c_1501223786.jpg",
+            url: "https://www.zomato.com/new-york-city/top-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Trending this week",
+            description: "The most popular restaurants in town this week",
+            share_url: "http://www.zoma.to/c-292/1"
+        }
+    },
+    {
+        collection: {
+            collection_id: 15,
+            res_count: 17,
+            image_url: "https://b.zmtcdn.com/data/collections/10dcdac2c6d08f9bae81b04042c34544_1438664251_l.jpg",
+            url: "https://www.zomato.com/new-york-city/sports-bar?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Sports bars",
+            description: "The best places to enjoy some sport with your meal",
+            share_url: "http://www.zoma.to/c-292/15"
+        }
+    },
+    {
+        collection: {
+            collection_id: 345,
+            res_count: 9,
+            image_url: "https://b.zmtcdn.com/data/collections/1200f8eb4afdb7f7fef6d3c30d4d54e1_1421236302_l.jpg",
+            url: "https://www.zomato.com/new-york-city/polish-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Polish specials",
+            description: "Immerse yourself in the cuisine of this beautiful country",
+            share_url: "http://www.zoma.to/c-292/345"
+        }
+    },
+    {
+        collection: {
+            collection_id: 21,
+            res_count: 30,
+            image_url: "https://b.zmtcdn.com/data/collections/e140962ec7eecbb851155fe0bb0cd28c_1501223786.jpg",
+            url: "https://www.zomato.com/new-york-city/top-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Trending this week",
+            description: "The most popular restaurants in town this week",
+            share_url: "http://www.zoma.to/c-292/1"
+        }
+    },
+    {
+        collection: {
+            collection_id: 215,
+            res_count: 17,
+            image_url: "https://b.zmtcdn.com/data/collections/10dcdac2c6d08f9bae81b04042c34544_1438664251_l.jpg",
+            url: "https://www.zomato.com/new-york-city/sports-bar?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Sports bars",
+            description: "The best places to enjoy some sport with your meal",
+            share_url: "http://www.zoma.to/c-292/15"
+        }
+    },
+    {
+        collection: {
+            collection_id: 2345,
+            res_count: 9,
+            image_url: "https://b.zmtcdn.com/data/collections/1200f8eb4afdb7f7fef6d3c30d4d54e1_1421236302_l.jpg",
+            url: "https://www.zomato.com/new-york-city/polish-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Polish specials",
+            description: "Immerse yourself in the cuisine of this beautiful country",
+            share_url: "http://www.zoma.to/c-292/345"
+        }
+    },
+    {
+        collection: {
+            collection_id: 31,
+            res_count: 30,
+            image_url: "https://b.zmtcdn.com/data/collections/e140962ec7eecbb851155fe0bb0cd28c_1501223786.jpg",
+            url: "https://www.zomato.com/new-york-city/top-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Trending this week",
+            description: "The most popular restaurants in town this week",
+            share_url: "http://www.zoma.to/c-292/1"
+        }
+    },
+    {
+        collection: {
+            collection_id: 315,
+            res_count: 17,
+            image_url: "https://b.zmtcdn.com/data/collections/10dcdac2c6d08f9bae81b04042c34544_1438664251_l.jpg",
+            url: "https://www.zomato.com/new-york-city/sports-bar?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Sports bars",
+            description: "The best places to enjoy some sport with your meal",
+            share_url: "http://www.zoma.to/c-292/15"
+        }
+    },
+    {
+        collection: {
+            collection_id: 3345,
+            res_count: 9,
+            image_url: "https://b.zmtcdn.com/data/collections/1200f8eb4afdb7f7fef6d3c30d4d54e1_1421236302_l.jpg",
+            url: "https://www.zomato.com/new-york-city/polish-restaurants?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            title: "Polish specials",
+            description: "Immerse yourself in the cuisine of this beautiful country",
+            share_url: "http://www.zoma.to/c-292/345"
+        }
+    }
+]
+

@@ -5,10 +5,10 @@ import { Platform } from 'react-native';
 import { TabNavigator, StackNavigator, DrawerNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-import Contacts from '../screens/Contacts';
+import Contacts from '../screens/Restaurants';
 import NewContact from '../screens/NewContact';
 import Me from '../screens/Me';
-import Details from '../screens/Details';
+import Details from '../screens/RestaurantDetails';
 import { capitalizeFirstLetter } from '../helpers/string';
 import { DrawerButton } from '../components/Header';
 
@@ -31,7 +31,7 @@ export const ContactsStack = StackNavigator({
   Details: {
     screen: Details,
     navigationOptions: ({ navigation }) => ({
-      headerTitle: `${capitalizeFirstLetter(navigation.state.params.name.first)} ${capitalizeFirstLetter(navigation.state.params.name.last)}`,
+      headerTitle: "Menu Items",
     }),
   },
 });

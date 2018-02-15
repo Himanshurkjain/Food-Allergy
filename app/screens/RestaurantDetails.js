@@ -3,17 +3,16 @@
 import React, { Component, PropTypes } from 'react';
 import { ScrollView } from 'react-native';
 
-import { Header, Actions, Info } from '../components/UserDetails';
+import { Header, Info } from '../components/UserDetails';
 import colors from '../config/colors';
 
 class Details extends Component {
   render() {
-    const contact = this.props.navigation.state.params;
+    const collection = this.props.navigation.state.params.collection;
     return (
       <ScrollView style={{ backgroundColor: colors.background }}>
-        <Header {...contact} />
-        <Actions {...contact} />
-        <Info {...contact} />
+        <Header {...collection} />
+        <Info/>
       </ScrollView>
     );
   }

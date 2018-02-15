@@ -4,14 +4,14 @@ import { View, Text, Image } from 'react-native';
 import styles from './styles';
 import { capitalizeFirstLetter } from '../../helpers/string';
 
-const Header = ({ picture, name }) => (
+const Header = ({ image_url, title }) => (
   <View style={styles.headerContainer}>
     <Image
-      source={{ uri: picture.large }}
+      source={{ uri: image_url }}
       style={styles.image}
     />
     <Text style={styles.name}>
-      {capitalizeFirstLetter(name.first)} {capitalizeFirstLetter(name.last)}
+      {capitalizeFirstLetter(title)}
     </Text>
   </View>
 );
