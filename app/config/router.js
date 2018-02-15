@@ -6,11 +6,11 @@ import { TabNavigator, StackNavigator, DrawerNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import Contacts from '../screens/Restaurants';
-import NewContact from '../screens/NewContact';
-import Me from '../screens/Me';
+import Me from '../screens/Allergies';
 import Details from '../screens/RestaurantDetails';
-import { capitalizeFirstLetter } from '../helpers/string';
 import { DrawerButton } from '../components/Header';
+import MenuDetails from "../screens/MenuDetails";
+
 
 const LeftDrawerButton = ({ navigate }) => {
   if (Platform.OS === 'android') {
@@ -24,7 +24,7 @@ export const ContactsStack = StackNavigator({
   Contacts: {
     screen: Contacts,
     navigationOptions: ({ navigation }) => ({
-      title: 'Contacts',
+      title: 'Restaurants',
       headerLeft: <LeftDrawerButton {...navigation} />
     }),
   },
@@ -34,6 +34,12 @@ export const ContactsStack = StackNavigator({
       headerTitle: "Menu Items",
     }),
   },
+    MenuDetails: {
+        screen: MenuDetails,
+        navigationOptions: ({navigation}) => ({
+            headerTitle: 'Menu Item',
+        })
+    }
 });
 
 
@@ -41,17 +47,7 @@ export const MeStack = StackNavigator({
   Me: {
     screen: Me,
     navigationOptions: ({ navigation }) => ({
-      title: 'Me',
-      headerLeft: <LeftDrawerButton {...navigation} />,
-    }),
-  },
-});
-
-export const NewContactStack = StackNavigator({
-  NewContact: {
-    screen: NewContact,
-    navigationOptions: ({ navigation }) => ({
-      title: 'New Contact',
+      title: 'Allergies',
       headerLeft: <LeftDrawerButton {...navigation} />,
     }),
   },
@@ -61,21 +57,14 @@ export const Tabs = TabNavigator({
   Contacts: {
     screen: ContactsStack,
     navigationOptions: {
-      tabBarLabel: 'Contacts',
+      tabBarLabel: 'Restaurants',
       tabBarIcon: ({ tintColor }) => <Icon name="ios-list" size={35} color={tintColor} />,
-    },
-  },
-  NewContact: {
-    screen: NewContactStack,
-    navigationOptions: {
-      tabBarLabel: 'New Contact',
-      tabBarIcon: ({ tintColor }) => <Icon name="ios-add" size={35} color={tintColor} />,
     },
   },
   Me: {
     screen: MeStack,
     navigationOptions: {
-      tabBarLabel: 'Me',
+      tabBarLabel: 'Allergies',
       tabBarIcon: ({ tintColor }) => <Icon name="ios-contact" size={35} color={tintColor} />,
     },
   },
@@ -88,17 +77,11 @@ export const Drawer = DrawerNavigator({
       drawerLabel: 'Contacts',
     },
   },
-  NewContact: {
-    screen: NewContactStack,
-    navigationOptions: {
-      drawerLabel: 'New Contact',
-    },
-  },
   Me: {
     screen: MeStack,
     navigationOptions: {
       drawerLabel: 'Me',
     },
-  },
+  }
 });
 

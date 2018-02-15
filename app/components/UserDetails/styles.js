@@ -33,6 +33,8 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    fontSize: 22,
+    color: colors.primaryText,
     paddingHorizontal: 20,
   },
   actionInfo: {
@@ -52,7 +54,9 @@ export default StyleSheet.create({
   actionBody: {
     fontSize: 16,
     color: colors.primaryText,
+    marginTop: 10,
     marginBottom: 5,
+    color: 'green'
   },
   infoContainer: {
     paddingVertical: 15,

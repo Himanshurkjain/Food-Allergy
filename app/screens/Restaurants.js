@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { FlatList } from 'react-native';
 
-import { contacts, restaurants } from '../config/data';
+import { restaurants } from '../config/data';
 import colors from '../config/colors';
 import { ListItem } from '../components/ListItem';
 

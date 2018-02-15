@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { View, Text, Image, TouchableHighlight, Platform } from 'react-native';
 
-import styles, { CHEVRON_SIZE } from './styles';
+import styles from './styles';
 import { capitalizeFirstLetter } from '../../helpers/string';
 import colors from '../../config/colors';
 

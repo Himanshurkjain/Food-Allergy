@@ -23,7 +23,6 @@ class Me extends Component {
             keyExtractor={(item) => item.id}
         ></FlatList>
 
-
     );
   }
 }
