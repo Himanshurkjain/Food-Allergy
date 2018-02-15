@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 import colors from '../../config/colors';
 
-export const CHEVRON_SIZE = 25;
 export default StyleSheet.create({
   row: {
     flexDirection: 'row',

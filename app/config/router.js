@@ -76,12 +76,6 @@ export const Drawer = DrawerNavigator({
     navigationOptions: {
       drawerLabel: 'Contacts',
     },
-  },
-  Me: {
-    screen: MeStack,
-    navigationOptions: {
-      drawerLabel: 'Me',
-    },
   }
 });
 

@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { View, Text, Image, TouchableHighlight, Platform } from 'react-native';
+import { View, Text, TouchableHighlight, Platform } from 'react-native';
 
 import styles from './styles';
 import { capitalizeFirstLetter } from '../../helpers/string';
